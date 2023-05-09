@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# apt-get install curl -y
+apt-get install curl -y
 
 # DNS Validation
 
