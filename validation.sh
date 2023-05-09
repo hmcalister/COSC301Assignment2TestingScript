@@ -31,7 +31,10 @@ read -p "MANUALLY CHECK IP OF CLIENT2 (enter to continue)"
 
 echo "-------- SSH --------"
 
-read -p "MANUALLY CHECK SSH TO SERVERPRO (enter to continue)"
+echo "GETTING SERVERPRO HOSTNAME OVER SSH: "
+ssh serverpro.localdomain hostname
+
+ # read -p "MANUALLY CHECK SSH TO SERVERPRO (enter to continue)"
 
 # EMAIL Validation
 
